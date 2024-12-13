@@ -1,0 +1,14 @@
+.heading-h1 {
+  width: 990px;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.heading-h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #121212;
+  line-height: 32px;
+  margin-bottom: 30px;
+}

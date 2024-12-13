@@ -1,0 +1,25 @@
+.about-section {
+  margin-bottom: 150px;
+}
+.highlighted {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 61px;
+  color: #121212;
+  margin-bottom: 30px;
+}
+.primary-button {
+  width: 255px;
+  height: 67px;
+  background-color: #ad1818;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #ffff;
+  cursor: pointer;
+}
+.primary-button:hover {
+  background-color: #bf3b3b;
+}
