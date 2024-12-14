@@ -1,16 +1,17 @@
 import React from "react";
-import backgroundImage from "../../assets/Rectangle.png";
 
-function MainSection(props) {
-  const cardStyle = {
-    backgroundImage: `url(${backgroundImage})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  };
+function MainSection({
+  text,
+  className = "",
+  backgroundImage,
+  textStyleClass = {},
+}) {
   return (
-    <div style={cardStyle} className="main-section">
-      <p className="corner-label">{props.text}</p>
+    <div
+      className={`main-section ${className}`}
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
+      <p className={textStyleClass}>{text}</p>
     </div>
   );
 }

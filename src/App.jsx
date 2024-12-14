@@ -3,7 +3,9 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import AboutSection from "./components/AboutSection/AboutSection";
 import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
 import ServicesSection from "./components/ServicesSection/ServicesSection";
-import BannerSection from "./components/BannerSection/BannerSection";
+import ImgWithTextSection from "./components/ImgWithTextSection/ImgWithTextSection";
+import ContactSection from "./components/ContactSection/ContactSection";
+import FooterSection from "./components/FooterSection/FooterSection";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       <AboutSection />
       <ProjectsSection />
       <ServicesSection />
-      <BannerSection />
+      <ImgWithTextSection />
+      <ContactSection />
+      <FooterSection />
     </div>
   );
 }

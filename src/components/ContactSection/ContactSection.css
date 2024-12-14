@@ -1,0 +1,31 @@
+.contact-section {
+  margin-top: 150px;
+  margin-left: 120px;
+  margin-bottom: 150px;
+}
+.contact-icon {
+}
+.contact-heading {
+}
+
+.phone-contact,
+.email-contact {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  margin-top: 34px;
+}
+.phone-contact a {
+  color: #121212;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.email-contact a {
+  color: #949292;
+}
+.email-contact a:hover,
+.phone-contact a:hover {
+  color: #c19393;
+}

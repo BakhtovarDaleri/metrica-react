@@ -36,7 +36,7 @@ const projects = [
 
 function ProjectsSection() {
   return (
-    <div>
+    <div id="projects">
       <Heading level="h2" text="ПРОЕКТЫ" />
 
       {projects.map(function (project) {

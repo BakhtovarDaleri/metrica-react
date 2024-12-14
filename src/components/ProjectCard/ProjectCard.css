@@ -1,5 +1,18 @@
 .projects-cards {
   margin-bottom: 90px;
+  position: relative;
+}
+.new-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #00ff4c; /* Красный фон */
+  color: #1a1919; /* Белый текст */
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 10; /* Убедитесь, что метка находится сверху */
 }
 .project-card-info {
   font-size: 30px;

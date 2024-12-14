@@ -1,0 +1,16 @@
+.image-with-text-section {
+  position: relative;
+  margin-bottom: 210px;
+  margin-top: 0;
+}
+
+.custom-text {
+  width: 443px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #fff;
+  position: absolute;
+  margin-left: 125px;
+  bottom: 60px;
+}

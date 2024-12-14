@@ -36,7 +36,7 @@ const services = [
 
 function ServicesSection() {
   return (
-    <div className="services-section">
+    <div id="services" className="services-section">
       <Heading level="h2" text="УСЛУГИ" />
 
       {services.map(function (service) {
